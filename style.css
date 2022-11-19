@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#menuWrapper {
+    width: 100%;
+    height: 75px;
+    background-color: #000000;
+}
+
+#menu {
+    width: 1170px;
+    height: 75px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.spotify-logo {
+    width: 190px;
+    height: 75px;
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+}
+
+.spotify-logo img {
+    width: 190px;
+    height: 75px;
+}
+
+#top-links {
+    width: auto;
+    height: 75px;
+    vertical-align: top;
+    display: inline-block;
+    float: right;
+
+}
+
+#top-links ul {
+    list-style-type: none;
+}
+
+#top-links ul li {
+    display: inline;
+}
+
+
+#top-links ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 28px;
+    margin-right: 28px;
+    color: #fff;
+    line-height: 75px;
+    font-weight: bold;
+}
+
+#top-links ul li a:hover {
+    color: #1ed760;
+}
+
+#banner-wrapper {
+    width: 100%;
+    height: 855px;
+    background-image: url("images/banner_bg.jpg");
+    text-align: center;
+}
+
+#banner-wrapper h1 {
+    color: #1ed760;
+    font-weight: bold;
+    font-size: 100px;
+    padding-top: 100px;
+    line-height: 180px;
+}
+
+#banner-wrapper p {
+    color: #1ed760;
+    font-weight: bold;
+    font-size: 18px;
+    padding-top: 30px;
+}
+
+#banner-wrapper a {
+    display: inline-block;
+    background-color: #1ed760;
+    width: auto;
+    padding: 18px 26px;
+    text-decoration: none;
+    border: 1px;
+    border-radius: 25px;
+    color: #2d45ba;
+    margin-top: 58px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#banner-wrapper a:hover {
+    background-color: #fff;
+}
+
+#footerwrapper {
+    width: 100%;
+    height: 290px;
+    background-color: #000000;
+}
+
+#footer {
+    width: 1170px;
+    height: 200px;
+    padding-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-menu-heading {
+    font-weight: bold;
+    color: #919496;
+    font-size: 12px;
+    padding-left: 13px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    display: block;
+}
+
+#footer-menu {
+    float: left;
+}
+
+#footer-menu ul {
+    list-style-type: none;
+}
+
+#footer-menu li {
+    display: inline;
+}
+
+#footer-menu a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    margin-left: 13px;
+    margin-right: 13px;
+}
+
+#social-menu {
+    width: auto;
+    height: 60px;
+    float: right;
+}
+#social-menu ul {
+list-style-type: none;
+}
+#social-menu li{
+    display: inline;
+}
+#social-menu a{
+    text-decoration: none;
+    margin-left: 14px;
+}
+
+#social-menu img {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    border: 1px solid black;
+    display: inline;
+}
